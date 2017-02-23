@@ -39,6 +39,7 @@ The simple way to start every new page.
   </head>
   <body>
     <h1>Hello, world!</h1>
+    <!-- This is a HTML comment, it will not show for the users -->
   </body>
 </html>
 ```
@@ -57,6 +58,8 @@ h1 {
   font-size: 52px;
   text-align: center;
 }
+
+/* This is a CSS comment */
 
 .blue-button{
   background-color: blue;
