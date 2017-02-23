@@ -44,3 +44,25 @@ The simple way to start every new page.
 ```
 
 
+## CSS
+
+### Basic CSS Structure
+```
+body{
+  background-color: orange;
+}
+
+h1 {
+  color: white;
+  font-size: 52px;
+  text-align: center;
+}
+
+.blue-button{
+  background-color: blue;
+  color: white;
+  border: 2px solid white;
+  border-radius: 4px;
+}
+```
+
