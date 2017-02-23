@@ -51,6 +51,8 @@ The simple way to start every new page.
 ```css
 body{
   background-color: orange;
+  width: 600px;
+  margin: 0 auto;
 }
 
 h1 {
@@ -69,3 +71,11 @@ h1 {
 }
 ```
 
+
+## Authors
+- Alexander Kustov [github/alexanderkustov](https://github.com/alexanderkustov)
+
+
+## License
+
+[MIT](https://github.com/jonschlinkert/remarkable/blob/master/LICENSE)
