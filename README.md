@@ -29,3 +29,20 @@ A way to group various elements
   <p> This is how my cat looks when he's asleep </p>
 </div>
 ```
+
+### HTML Structure
+The simple way to start every new page.
+```
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>My First Website</title>
+    <link href="css/style.css" rel="stylesheet">
+  </head>
+  <body>
+    <h1>Hello, world!</h1>
+  </body>
+</html>
+```
+
+
