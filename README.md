@@ -1,26 +1,26 @@
 ## HTML
 
 ### Paragraph
-```
+```html
 <p> this is a sample paragraph </p>
 ```
 ### Heading
-```
+```html
 <h1> this is a big title</h1>
 <h2> a subtitle </h2>
 ```
 ### Anchor Link
-```
+```html
 <a href="http://www.codeatuni.com/"> My Favorite Website</a>
 ```
 ### Image
-```
+```html
 <img src="images/cat.jpg" alt="cat sleeping">
 ```
 
 ### Division
 A way to group various elements
-```
+```html
 <div>
   <h3> My Cat </h3>
   <img src="images/cat.jpg" alt="cat sleeping">
@@ -30,7 +30,7 @@ A way to group various elements
 
 ### HTML Structure
 The simple way to start every new page.
-```
+```html
 <!DOCTYPE html>
 <html>
   <head>
@@ -47,7 +47,7 @@ The simple way to start every new page.
 ## CSS
 
 ### Basic CSS Structure
-```
+```css
 body{
   background-color: orange;
 }
