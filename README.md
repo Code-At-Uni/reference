@@ -138,7 +138,7 @@ The number can range from 1 to 12, and will follow always a format of `col-md-NU
 </div>
 ```
 
-In case we try to fit 3 columns of size 6 in our row, it will break the layout, causing the last col-md-6 to go to the next line. This should be avoided.
+In case we try to fit 3 columns of size 6 in our row, it will adjust the layout, causing the last col-md-6 to go to the next line. This is fine in general, for making adjustemnts for other screen sizes.
 
 ### Screen Size Classes
 `col-md-6` stands for Column Medium Size 6, the medium represents screen-size, in this case for laptops/tablets. It plays a part in the responsiveness of Bootstrap.
@@ -149,7 +149,31 @@ Instead of using `md` all the time, we also have:
 - md – Medium sized screens such as desktops and laptops.
 - lg – Large, high resolution screens.
 
+If we want a certain display on mobile screens, but a different one for desktops, we can easily add as many different column sizes to our column classes.
 
+In the next example, you can see how this could work, in case we wanted to display different layouts for phones and desktops.
+
+```html
+
+<div class="row">
+  <div class="col-md-3 col-xs-6">25% Width on Desktop and 50% on Mobile</div>
+  <div class="col-md-3 col-xs-6">...</div>
+  <div class="col-md-3 col-xs-6">...</div>
+  <div class="col-md-3 col-xs-6">...</div>
+</div>
+```
+### Offsetting
+
+Every column will follow, the previous one, without any space to breathe. Always floating to the left.
+
+In case we do want to add space to, we need to add classes with offset and specify how much space do we want to give on the left side to this specific column. You can have different offsets for different screen sizes.
+
+```html
+<div class="row">
+  <div class="col-md-3">...</div>
+  <div class="col-md-3 col-md-offset-3">This column will be offset 3 spaces before displaying its content</div>
+</div>
+```
 
 
 ## Authors
