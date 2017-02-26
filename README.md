@@ -138,6 +138,19 @@ The number can range from 1 to 12, and will follow always a format of `col-md-NU
 </div>
 ```
 
+In case we try to fit 3 columns of size 6 in our row, it will break the layout, causing the last col-md-6 to go to the next line. This should be avoided.
+
+### Screen Size Classes
+`col-md-6` stands for Column Medium Size 6, the medium represents screen-size, in this case for laptops/tablets. It plays a part in the responsiveness of Bootstrap.
+
+Instead of using `md` all the time, we also have:
+- xs – Extra small screens like mobile screens.
+- sm – Small screen devices like tablets.
+- md – Medium sized screens such as desktops and laptops.
+- lg – Large, high resolution screens.
+
+
+
 
 ## Authors
 - Alexander Kustov [github/alexanderkustov](https://github.com/alexanderkustov)
