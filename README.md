@@ -18,6 +18,22 @@
 <img src="images/cat.jpg" alt="cat sleeping">
 ```
 
+### Lists
+A way to list various items. Can be ordered `<ol>`, unordered `<ul>`, and a few more.
+```html
+<ul>
+  <li> Broccoli </li>
+  <li> Lentils </li>
+  <li> Ice Cream </li>
+</ul>
+
+<ol>
+  <li> Mandarin </li>
+  <li> Spanish </li>
+  <li> English </li>
+</ol>
+```
+
 ### Division
 A way to group various elements
 ```html
@@ -26,6 +42,20 @@ A way to group various elements
   <img src="images/cat.jpg" alt="cat sleeping">
   <p> This is how my cat looks when he's asleep </p>
 </div>
+```
+### Form
+Simple way to collect user input. Has `<input>` elements for collection, which can vary in type. Should have a Submit button so the form can be stored, the store will have to be processed by the server, which needs to be defined in the `action=""` attribute on the form.
+```html
+<form action="/my_server">
+  First name:<br>
+  <input type="text" name="firstname"><br>
+  Email:<br>
+  <input type="email" name="email">
+  Favorite Colour:<br>
+  <input type="color" name="fav_color">
+  
+  <input type="submit">
+</form>
 ```
 
 ### HTML Structure
@@ -70,6 +100,12 @@ h1 {
   border-radius: 4px;
 }
 ```
+
+## Bootstrap
+Bootstrap is a HTML,CSS and Javascript framework originally created by Twitter to easily prototype every possible layout configuration, it's now open source and ready to use by anyone, being the most popular framework choice for a professional or begginner web developers and designers.
+
+### Grid
+
 
 
 ## Authors
