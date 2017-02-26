@@ -175,11 +175,16 @@ In case we do want to add space to, we need to add classes with offset and speci
 </div>
 ```
 
+## Extensive resources
+- [HTML Reference](http://htmlreference.io/)
+- [CSS Reference](http://cssreference.io/)
+- [Bootstrap Official Website](http://getbootstrap.com/)
 
 ## Authors
 - Alexander Kustov [github/alexanderkustov](https://github.com/alexanderkustov)
 
 
 ## License
+This mini-reference is open source, free to everyone and accepts contribuitons, if you spot typos, have questions or have a better way of explaining a concept, feel free to reach out here - [github/Code-At-Uni/reference](https://github.com/Code-At-Uni/reference)
 
 [MIT](https://github.com/jonschlinkert/remarkable/blob/master/LICENSE)
