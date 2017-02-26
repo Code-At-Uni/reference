@@ -106,6 +106,37 @@ Bootstrap is a HTML,CSS and Javascript framework originally created by Twitter t
 
 ### Grid
 
+Bootstrap introduces the concept of the Grid, in which every element is positioned. Grid is divded by Rows and Columns. This allows to position any element horizontally and vertically by understanding how to use rows and columns.
+
+- Rows will take an entire width of the element they are positioned in, think of it as an entire line on your screen, from the beggining to the end.
+- Columns will be our way to split rows, into several "columns"
+
+```html
+<div class="row">
+    <div class="col-md-12">
+      Welcome To The Grid
+    </div>
+</div>
+```
+
+### 12 Divisions Only
+
+Every row will be divided into 12 equal parts. 
+When we create a column we need to tell just how much do we need from those 12 parts for its width. 
+In case we want to split a column into 2 equal parts, we should divide 12 by 2 and we get 6. Therefore we need to apply a specific number, in this case 6, to our column class. Like this: `<div class="col-md-6> content </div>`.
+The number can range from 1 to 12, and will follow always a format of `col-md-NUMBER`, if we put 12 it will occupy the whole row, in case of 6 it will occupy 50%, if we put 3 it will occupy 25% of it, etc..
+
+```html
+<div class="row">
+  <div class="col-md-12">Full width row</div>
+</div>
+
+<div class="row">
+  <div class="col-md-6">50% Width</div>
+  <div class="col-md-3">25% Width</div>
+  <div class="col-md-3">25% Width</div>
+</div>
+```
 
 
 ## Authors
